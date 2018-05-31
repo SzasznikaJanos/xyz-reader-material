@@ -1,0 +1,23 @@
+<resources>
+    <!-- detail -->
+    <dimen name="detail_title_text_size">32sp</dimen>
+    <dimen name="detail_body_text_size">22sp</dimen>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+    <item format="float" name="detail_line_spacing" type="fraction">1.15</item>
+
+    <dimen name="dimen_fourDips">4dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="dips_8">8dp</dimen>
+    <dimen name="appBar_elevation">4dp</dimen>
+    <dimen name="appbar_height">280dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+
+
+    <!-- Font Sizes -->
+    <dimen name="textsize_small">15sp</dimen>
+    <dimen name="textsize_medium">16sp</dimen>
+    <dimen name="textsize_large">18sp</dimen>
+    <dimen name="textsize_xlarge">24sp</dimen>
+</resources>

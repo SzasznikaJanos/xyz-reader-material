@@ -1,0 +1,135 @@
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
+
+    </style>
+
+    <style name="ArticleRecyclerView">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/dimen_fourDips</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="AppBarOverLayTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="PopupOverLay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppBarStyle">
+        <item name="android:theme">@style/AppBarOverLayTheme</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ToolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/theme_primary</item>
+    </style>
+
+    <style name="ToolbarLogo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/dips_8</item>
+        <item name="android:paddingBottom">@dimen/dips_8</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+
+    <style name="AppbarThumbnail" parent="AppBarImageDetail"/>
+
+
+    <style name="TitleHolder">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">start|bottom</item>
+        <item name="android:padding">@dimen/dp_16</item>
+        <item name="android:background">@color/theme_black_alpha</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="AppbarTitle">
+        <item name="android:textSize">@dimen/textsize_xlarge</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="AppbarSubtitle">
+        <item name="android:layout_marginTop">@dimen/dips_8</item>
+        <item name="android:textSize">@dimen/textsize_large</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:contentDescription">@string/action_share</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+
+    <style name="ArticleTextViewDetail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:padding">@dimen/dp_16</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/textsize_medium</item>
+        <item name="android:textColor">#1B0000</item>
+        <item name="android:textColorLink">@color/theme_accent</item>
+        <item name="android:lineSpacingMultiplier">@fraction/detail_line_spacing</item>
+    </style>
+
+
+    <style name="ArticleTextView" parent="ArticleTextViewDetail"/>
+
+    <style name="ThumbnailStyle.Base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/dips_8</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">@color/photo_placeholder</item>
+    </style>
+
+    <style name="ThumbnailStyle" parent="ThumbnailStyle.Base"/>
+
+    <style name="AppBarImageDetail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+
+</resources>

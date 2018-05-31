@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:colorAccent">@color/theme_accent</item>
+        <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="android:colorPrimary">@color/theme_primary</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="ThumbnailStyle" parent="ThumbnailStyle.Base">
+        <item name="android:transitionName">@string/thumbnailTransition</item>
+    </style>
+
+    <style name="AppbarThumbnail" parent="AppBarImageDetail">
+        <item name="android:transitionName">@string/thumbnailTransition</item>
+    </style>
+
+    <style name="ArticleTextView" parent="ArticleTextViewDetail">
+        <item name="android:windowEnterTransition">@transition/slide_in_bottom</item>
+    </style>
+</resources>
